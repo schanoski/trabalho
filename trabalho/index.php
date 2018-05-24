@@ -20,9 +20,9 @@ $dados = mysqli_query($conexao, $sql) or die(mysqli_error($conexao));
                 <div class="panel panel-body">
 
                 <div align="right">
-                    <form method="POST" ation="pesquisa.php">
+                    <form method="POST" action="pesquisa.php">
                             <input type="text" placeholder="Pesquisar" name="q"/>
-                            <input type="submit" value="Enviar" name="q">
+                            <input type="submit" value="Enviar">
                         </form>
                 </div>
 

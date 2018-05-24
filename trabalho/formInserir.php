@@ -28,23 +28,24 @@ include './verificaLogin.php';
                         </div>
                         <div>
                             <label for="disciplina1">Disciplina 1:</label>
-                            <select name="select-simples" class="ls-select">
-                            <option value="matematica5" name="disciplina1"  required="true">Matemática 5</option>
-                            <option value="projetodesoftware" name="disciplina1"  required="true">Projeto de Software</option>
-                            <option value="didaticadacomputacao" name="disciplina1"  required="true">Didática da Computação</option>
-                            <option value="desenvolvimentoweb" name="disciplina1"  required="true">Desenvolvimento Web</option>
-                            <option value="praticapedagogica" name="disciplina1"  required="true">Prática Pedagógica</option>
+                            <select name="disciplina1" class="ls-select" require="true">
+                            <option value="Matemática 5" >Matemática 5</option>
+                            <option value="Projeto de Software" >Projeto de Software</option>
+                            <option value="Didatica da computação">Didática da Computação</option>
+                            <option value="Desenvolvimento Web" >Desenvolvimento Web</option>
+                            <option value="Prática Pedagogica">Prática Pedagógica</option>
                             </select>
                         </div>
-                        <div class="form-group">
+
+                        <div>
                             <label for="disciplina2">Disciplina 2:</label>
-                            <select>
-                            <option value="nenhuma">Nenhuma</option>
-                            <option value="matematica5">Matemática 5</option>
-                            <option value="projetodesoftware">Projeto de Software</option>
-                            <option value="didaticadacomputacao">Didática da Computação</option>
-                            <option value="desenvolvimentoweb">Desenvolvimento Web</option>
-                            <option value="praticapedagogica">Prática Pedagógica</option>
+                            <select name="disciplina2" class="ls-select" require="true">
+                            <option value="Nenhuma" >Nenhuma</option>
+                            <option value="Matemática 5" >Matemática 5</option>
+                            <option value="Projeto de Software" >Projeto de Software</option>
+                            <option value="Didatica da computação">Didática da Computação</option>
+                            <option value="Desenvolvimento Web" >Desenvolvimento Web</option>
+                            <option value="Prática Pedagogica">Prática Pedagógica</option>
                             </select>
                         </div>
 
